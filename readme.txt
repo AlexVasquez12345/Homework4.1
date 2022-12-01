@@ -2,3 +2,6 @@ Alexander Vasquez
 Alexander_Vasquez@student.uml.edu
 Repo Link: https://github.com/AlexVasquez12345/Homework4.1
 Website Link: https://alexvasquez12345.github.io/Homework4.1/
+(PLEASE NOTE, MANY STUDENTS HAVE BEEN HAVING TROUBLE WITH GITHUB NOT
+DISPLAYING THEIR SLIDERS AND OTHER INFO CORRECTLY. IF YOU GET THIS ISSUE
+WITH MY WEBPAGE, PLEASE DOWNLOAD IT AND RUN IT LOCALLY ON YOUR OWN MACHINE)
