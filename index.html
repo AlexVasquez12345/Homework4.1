@@ -1,0 +1,43 @@
+<!--Alex Vasquez-->
+<!--JQuery Library API Links: https://www.sitepoint.com/basic-jquery-form-validation-tutorial/-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Dyanmic Multiplication Table</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <main>
+        <h1>Dyanmic Multiplication Table</h1>
+        <!--setup for the form to function correctly
+            also an inclusion of the submit button to do
+            the calculation once clicked-->
+        <form name="my_table">
+          <label for="min_y">Min Val of Y(-50 to 50)</label>
+          <input type="number" id="min_y" name="min_y" min="-50" max="50"><br>
+
+          <label for="max_y">Max Val of Y(-50 to 50)</label>
+          <input type="number" id="max_y" name="max_y" min="-50" max="50"><br>
+
+          <label for="min_x">Min Val of X(-50 to 50)</label>
+          <input type="number" id="min_x" name="min_x" min="-50" max="50"><br>
+
+          <label for="max_x">Max Val of X(-50 to 50)</label>
+          <input type="number" id="max_x" name="max_x" min="-50" max="50"><br>
+          
+          <input type="submit" value="Submit" onclick="Arithmetic()">
+        </form>
+        <!-- In the case where we have an error, this will display an empty table, else
+        it'll display the value full of the values we inputted-->
+        <div id = "true_table"></div>
+    </main>
+    <!--JQuery Library API-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!--Secondary JQuery Library API-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+	<script src="js/arithmetic.js"></script>
+  <script src="js/valid_input.js"></script>
+  </script>
+  </body>
+</html>
